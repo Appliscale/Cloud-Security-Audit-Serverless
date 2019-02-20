@@ -1,0 +1,19 @@
+service: cloud-security-audit-serverless
+
+provider:
+  name: aws
+  runtime: go1.x
+
+package:
+ exclude:
+   - ./**
+ include:
+   - ./Cloud-Security-Audit-Serverless
+
+functions:
+  cloud-security-audit:
+    handler: Cloud-Security-Audit-Serverless
+    events:
+     - http:
+         path: Cloud-Security-Audit-Serverless
+         method: post
