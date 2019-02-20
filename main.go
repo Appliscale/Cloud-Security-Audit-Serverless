@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Appliscale/Cloud-Security-Audit-Serverless/cmd"
+	"github.com/Appliscale/cloud-security-audit/cmd"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )

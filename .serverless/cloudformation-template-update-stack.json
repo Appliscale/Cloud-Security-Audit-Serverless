@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/cloud-security-audit-serverless/dev/1550583105804-2019-02-19T13:31:45.804Z/cloud-security-audit-serverless.zip"
+          "S3Key": "serverless/cloud-security-audit-serverless/dev/1550655228791-2019-02-20T09:33:48.791Z/cloud-security-audit-serverless.zip"
         },
         "FunctionName": "cloud-security-audit-serverless-dev-cloud-security-audit",
         "Handler": "Cloud-Security-Audit-Serverless",
@@ -111,14 +111,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CloudDashsecurityDashauditLambdaVersionOX8fn9AZFhUnJqiZpyiR6b58Gi5tRy2Bum67DAvqZE": {
+    "CloudDashsecurityDashauditLambdaVersion1DA3uZ58Cv8N79WGHqy8PPhkTmRX39wQxdRnaVxVA": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CloudDashsecurityDashauditLambdaFunction"
         },
-        "CodeSha256": "wy6Zqjyn77an4ieTtYVs68fvQrdelPM+tUysHh2xx2s="
+        "CodeSha256": "ksY318xB5zVkvQgXsPhvSkU4lQmjhF+tf4JkEmr04Ao="
       }
     },
     "ApiGatewayRestApi": {
@@ -190,7 +190,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1550583106042": {
+    "ApiGatewayDeployment1550655229026": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -259,7 +259,7 @@
     "CloudDashsecurityDashauditLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CloudDashsecurityDashauditLambdaVersionOX8fn9AZFhUnJqiZpyiR6b58Gi5tRy2Bum67DAvqZE"
+        "Ref": "CloudDashsecurityDashauditLambdaVersion1DA3uZ58Cv8N79WGHqy8PPhkTmRX39wQxdRnaVxVA"
       }
     },
     "ServiceEndpoint": {
