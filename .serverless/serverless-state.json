@@ -106,7 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/cloud-security-audit-serverless/dev/1550746594990-2019-02-21T10:56:34.990Z/cloud-security-audit-serverless.zip"
+                "S3Key": "serverless/cloud-security-audit-serverless/dev/1550747669900-2019-02-21T11:14:29.900Z/cloud-security-audit-serverless.zip"
               },
               "FunctionName": "cloud-security-audit-serverless-dev-cloud-security-audit",
               "Handler": "Cloud-Security-Audit-Serverless",
@@ -204,7 +204,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1550746595252": {
+          "ApiGatewayDeployment1550747670190": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -340,7 +340,7 @@
     "artifact": "/home/sylwia/go/src/github.com/Appliscale/Cloud-Security-Audit-Serverless/.serverless/cloud-security-audit-serverless.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/cloud-security-audit-serverless/dev/1550746594990-2019-02-21T10:56:34.990Z",
+    "artifactDirectoryName": "serverless/cloud-security-audit-serverless/dev/1550747669900-2019-02-21T11:14:29.900Z",
     "artifact": "cloud-security-audit-serverless.zip"
   }
 }
