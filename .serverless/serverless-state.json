@@ -106,7 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/cloud-security-audit-serverless/dev/1550747669900-2019-02-21T11:14:29.900Z/cloud-security-audit-serverless.zip"
+                "S3Key": "serverless/cloud-security-audit-serverless/dev/1551177595310-2019-02-26T10:39:55.310Z/cloud-security-audit-serverless.zip"
               },
               "FunctionName": "cloud-security-audit-serverless-dev-cloud-security-audit",
               "Handler": "Cloud-Security-Audit-Serverless",
@@ -125,14 +125,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "CloudDashsecurityDashauditLambdaVersionnxfQ7uKnHrb7JNbFBneDxoEubSJpNIFvReJvxMr1xPo": {
+          "CloudDashsecurityDashauditLambdaVersionypjzOqD0wOSW5x6kEXEmHV5FWisyOE05oT5sYwOg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CloudDashsecurityDashauditLambdaFunction"
               },
-              "CodeSha256": "DKHQQKzr6ymcP76pD1foBBHuuDeqw9VjhQSrTRi9uXs="
+              "CodeSha256": "/0SNoCcgv5dQSiE6XdbbmrJmUjDKfkhf/YAjdWohHlk="
             }
           },
           "ApiGatewayRestApi": {
@@ -204,7 +204,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1550747670190": {
+          "ApiGatewayDeployment1551177595494": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -273,7 +273,7 @@
           "CloudDashsecurityDashauditLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CloudDashsecurityDashauditLambdaVersionnxfQ7uKnHrb7JNbFBneDxoEubSJpNIFvReJvxMr1xPo"
+              "Ref": "CloudDashsecurityDashauditLambdaVersionypjzOqD0wOSW5x6kEXEmHV5FWisyOE05oT5sYwOg"
             }
           },
           "ServiceEndpoint": {
@@ -340,7 +340,7 @@
     "artifact": "/home/sylwia/go/src/github.com/Appliscale/Cloud-Security-Audit-Serverless/.serverless/cloud-security-audit-serverless.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/cloud-security-audit-serverless/dev/1550747669900-2019-02-21T11:14:29.900Z",
+    "artifactDirectoryName": "serverless/cloud-security-audit-serverless/dev/1551177595310-2019-02-26T10:39:55.310Z",
     "artifact": "cloud-security-audit-serverless.zip"
   }
 }
